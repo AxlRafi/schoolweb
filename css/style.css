@@ -694,10 +694,13 @@ body {
 .section-title {
   text-align: center;
   font-family: "Merriweather", serif;
-  /* font-size handled by base clamp */
   margin-bottom: 2rem;
   color: #003366;
   position: relative;
+  font-weight: 700;
+  color: #2e5339; /* deep green */
+  font-size: 2.2rem;
+  margin-bottom: 0.4rem;
 }
 
 .section-title::after {
@@ -780,9 +783,10 @@ body {
 
 .guru-section .section-title {
   font-family: "Merriweather", serif;
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-  color: #2e7d32; /* green accent */
+  font-weight: 700;
+  color: #2e5339; /* deep green */
+  font-size: 2.2rem;
+  margin-bottom: 0.4rem;
 }
 
 .guru-section .section-subtitle {
@@ -837,7 +841,7 @@ body {
 .guru-role {
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
-  color: #2e7d32; /* green accent */
+  color: #2e7d32;
 }
 
 /* Carousel controls */

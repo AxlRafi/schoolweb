@@ -5,23 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MI Miftahul Ulum</title>
 
-    <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-
-    <!-- Bootstrap CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Header -->
     <div id="header"></div>
 
-    <!-- Hero Banner -->
+    <!-- =======================
+    Hero Banner
+======================= -->
     <section class="hero-section">
       <div class="hero-overlay"></div>
       <div class="container text-center hero-content">
@@ -32,7 +29,9 @@
       </div>
     </section>
 
-    <!-- Berita Terbaru Section -->
+    <!-- =======================
+Berita Terbaru
+======================= -->
     <section id="berita-terbaru" class="py-5 section-alt">
       <div class="container">
         <h2 class="section-title mb-4">Berita Terbaru</h2>
@@ -47,10 +46,27 @@
                 class="news-image"
               />
               <div class="news-content">
-                <p class="news-date">2025.04.24</p>
+                <p class="news-date">20 Agustus 2025</p>
+                <h3 class="news-title">HUT 80 Lomba</h3>
+              </div>
+              <div class="news-footer">CHECK</div>
+            </div>
+          </div>
+
+          <!-- News Card 2 -->
+          <div class="col-md-4">
+            <div class="news-card">
+              <div class="news-badge">Notice</div>
+              <img
+                src="assets/images/hero1.jpeg"
+                alt="News Image"
+                class="news-image"
+              />
+              <div class="news-content">
+                <p class="news-date">2025.03.15</p>
                 <h3 class="news-title">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Quod, itaque.
+                  Sed ut perspiciatis unde omnis iste natus error sit
+                  voluptatem.
                 </h3>
               </div>
               <div class="news-footer">CHECK</div>
@@ -99,7 +115,9 @@
       </div>
     </section>
 
-    <!-- Sambutan Kepala Sekolah -->
+    <!-- =======================
+Sambutan Kepala Sekolah
+======================= -->
     <section id="sambutan" class="sambutan-section py-5">
       <div class="container text-center">
         <!-- Title -->
@@ -117,7 +135,6 @@
             </div>
           </div>
 
-          <!-- Pesan Sambutan -->
           <div class="col-md-8">
             <h3 class="kepsek-name">Bapak/Ibu Nama Kepala Sekolah</h3>
             <p>
@@ -215,10 +232,10 @@
               <img
                 src="assets/images/placeholder.png"
                 class="prestasi-img"
-                alt="Olimpiade Sains"
+                alt="Olimpiade Matematika"
               />
               <div class="prestasi-body">
-                <h5 class="prestasi-title">Olimpiade Sains</h5>
+                <h5 class="prestasi-title">Olimpiade Matematika</h5>
                 <p class="prestasi-text">
                   Peserta Tingkat Provinsi, Tahun 2025
                 </p>
@@ -230,7 +247,7 @@
     </section>
 
     <!-- =======================
-     Guru dan Tenaga Kependidikan
+ Guru dan Tenaga Kependidikan
 ======================= -->
     <section class="guru-section py-5" id="guru">
       <div class="container text-center">
@@ -254,6 +271,16 @@
               data-bs-target="#guruCarousel"
               data-bs-slide-to="1"
             ></button>
+            <button
+              type="button"
+              data-bs-target="#guruCarousel"
+              data-bs-slide-to="2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#guruCarousel"
+              data-bs-slide-to="3"
+            ></button>
           </div>
 
           <div class="carousel-inner">
@@ -263,7 +290,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                   <div class="guru-card shadow-sm">
                     <img
-                      src="assets/images/placeholderGuru.png"
+                      src="assets/images/Bu Rahma.png"
                       class="guru-img"
                       alt="Guru 1"
                     />
@@ -277,7 +304,7 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
                   <div class="guru-card shadow-sm">
                     <img
-                      src="assets/images/placeholderGuru.png"
+                      src="assets/images/Bu Jamil.jpg"
                       class="guru-img"
                       alt="Guru 2"
                     />
@@ -312,6 +339,128 @@
                     <div class="guru-info">
                       <h5 class="guru-name">Ibu Rahma</h5>
                       <p class="guru-role">Guru IPA</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="guru-card shadow-sm">
+                    <img
+                      src="assets/images/placeholderGuru.png"
+                      class="guru-img"
+                      alt="Guru 5"
+                    />
+                    <div class="guru-info">
+                      <h5 class="guru-name">Ibu Dian</h5>
+                      <p class="guru-role">Guru Bahasa Inggris</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="guru-card shadow-sm">
+                    <img
+                      src="assets/images/placeholderGuru.png"
+                      class="guru-img"
+                      alt="Guru 6"
+                    />
+                    <div class="guru-info">
+                      <h5 class="guru-name">Bapak Hendra</h5>
+                      <p class="guru-role">Guru Seni</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="guru-card shadow-sm">
+                    <img
+                      src="assets/images/placeholderGuru.png"
+                      class="guru-img"
+                      alt="Guru 7"
+                    />
+                    <div class="guru-info">
+                      <h5 class="guru-name">Ibu Lestari</h5>
+                      <p class="guru-role">Guru Bahasa Indonesia</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="guru-card shadow-sm">
+                    <img
+                      src="assets/images/placeholderGuru.png"
+                      class="guru-img"
+                      alt="Guru 8"
+                    />
+                    <div class="guru-info">
+                      <h5 class="guru-name">Bapak Budi</h5>
+                      <p class="guru-role">Guru Olahraga</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 (New) -->
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="guru-card shadow-sm">
+                    <img
+                      src="assets/images/placeholderGuru.png"
+                      class="guru-img"
+                      alt="Guru 9"
+                    />
+                    <div class="guru-info">
+                      <h5 class="guru-name">Ibu Ani</h5>
+                      <p class="guru-role">Guru PKn</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="guru-card shadow-sm">
+                    <img
+                      src="assets/images/placeholderGuru.png"
+                      class="guru-img"
+                      alt="Guru 10"
+                    />
+                    <div class="guru-info">
+                      <h5 class="guru-name">Bapak Rahmat</h5>
+                      <p class="guru-role">Guru Sejarah</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="guru-card shadow-sm">
+                    <img
+                      src="assets/images/placeholderGuru.png"
+                      class="guru-img"
+                      alt="Guru 11"
+                    />
+                    <div class="guru-info">
+                      <h5 class="guru-name">Ibu Nisa</h5>
+                      <p class="guru-role">Guru Ekonomi</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6 mb-4">
+                  <div class="guru-card shadow-sm">
+                    <img
+                      src="assets/images/placeholderGuru.png"
+                      class="guru-img"
+                      alt="Guru 12"
+                    />
+                    <div class="guru-info">
+                      <h5 class="guru-name">Bapak Arif</h5>
+                      <p class="guru-role">Guru Geografi</p>
                     </div>
                   </div>
                 </div>
